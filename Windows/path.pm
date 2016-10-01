@@ -135,7 +135,11 @@ my %initiumMap =
     "Skeleton Grave" => { "Northeast Cemetery" => 1 },
     "Forest Path" => { "Eridis Forest 1" => 1, "Caru Hill" => 1 },
     "Caru Hill" => { "Forest Path" => 1 },
-    
+    "Northern Volantis Coastline" => { "Volantis" => 1, "Nors Mountains" => 1 },
+    "Nors Mountains" => { "Northern Volantis Coastline" => 1, "Sand Swept Plains" => 1, "Gaping Cave" => 1, "Nors Plains" => 1 },
+    "Nors Plains" => { "Nors Mountains" => 1, "Nortion Hills" => 1, "Kobold Settlement" => 1 },
+    "Gaping Cave" => { "Nors Mountains" => 1 },
+    "Sand Swept Plains" => { "Nors Mountains" => 1, "Kujir Marsh Entrance" => 1 },
 );
 
 sub GetCurrentLocation()
